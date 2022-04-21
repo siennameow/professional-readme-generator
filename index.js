@@ -10,7 +10,15 @@ const generatePage = require('./utils/generateMarkdown.js')
 const questions = [{
     type: "input",
     name: "title",
-    message: "What is the project title?",
+    message: "What is the project title? ",
+    validate: titleInput => {
+        if (titleInput) {
+            return true;
+        } else {
+            console.log('Please enter your project title!');
+            return false;
+        }
+    }
 },
 {
     type: "input",
@@ -47,22 +55,33 @@ const questions = [{
 {
     type: "input",
     name: "test",
-    message: "Write down the tests if any: "
-},
-{
-    type: "input",
-    name: "questions",
-    message: "What do I do if I have an questions or feedbacks? "
+    message: "Please provide instructions on how to test the app."
 },
 {
     type: "input",
     name: "username",
-    message: "Please enter your GitHub username: "
+    message: "Please enter your GitHub username: ",
+    validate: githubInput => {
+        if (githubInput) {
+            return true;
+        } else {
+            console.log('Please enter your GitHub username!');
+            return false;
+        }
+    }
 },
 {
     type: "input",
     name: "email",
-    message: "Please enter your email: "
+    message: "Please enter your email: ",
+    validate: emailInput => {
+        if (emailInput) {
+            return true;
+        } else {
+            console.log('Please enter your email!');
+            return false;
+        }
+    }
 }
 
 ];
@@ -70,7 +89,7 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => 
-    err ? console.error(err) : console.log('Success! Your README.md file has been generated!')
+    err ? console.error(err) : console.log('Success! Your README.md file has been generated in the sample folder. ')
 )}
 
 // TODO: Create a function to initialize app
