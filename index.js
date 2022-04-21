@@ -99,7 +99,7 @@ function init() {
     .then((answers) => {
         const readmePageContent = generatePage(answers);
         
-        writeToFile('./sample/finalREADME.md',readmePageContent);
+        writeToFile('./sample/generatedREADME.md',readmePageContent);
     })
 }
 // Function call to initialize app

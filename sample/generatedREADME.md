@@ -1,6 +1,6 @@
 # meow
   
-  [ ]( )
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description 📝 
   meow
@@ -21,7 +21,7 @@
 
 ## License 🚀
   
-  The application is covered under the following license: [ ]( )
+  The application is covered under the following license: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
     
 
 ## Contribution 👩🏻‍💻 
@@ -32,7 +32,7 @@
 
 ## Questions ❓
 
-📩 If you have any question, email me here at : meow<br/>
-:octocat: My Github page is [meow](https://github.com/meow)
+📩 If you have any question, email me here at : meow@meow.com<br/>
+:octocat: My Github page is [meowmeow](https://github.com/meowmeow)
 
  
