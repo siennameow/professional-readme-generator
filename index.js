@@ -9,7 +9,7 @@ const generatePage = require('./utils/generateMarkdown.js')
 // TODO: Create an array of questions for user input
 const questions = [{
     type: "input",
-    name: "projectTitle",
+    name: "title",
     message: "What is the project title?",
 },
 {
@@ -43,12 +43,12 @@ const questions = [{
 },
 {
     type: "input",
-    name: "contributing",
+    name: "contribution",
     message: "Who are the contributors of this projects?"
 },
 {
     type: "input",
-    name: "tests",
+    name: "test",
     message: "Write down the tests if any: "
 },
 {
