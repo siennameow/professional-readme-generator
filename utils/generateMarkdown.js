@@ -5,10 +5,10 @@ function renderLicenseBadge(license) {
   if (license !== 'No license') {
     switch (license) {
       case 'Apache 2.0':
-        licenseBadge = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
+        licenseBadge = `![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)`;
         break;
       case 'BSD 3-Clause':
-        licenseBadge = `![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
+        licenseBadge = `![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)`;
         break;
       case 'GNU GPLv3.0':
         licenseBadge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
@@ -60,7 +60,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-if (license !== 'no license') {
+if (license !== 'No license') {
   return `
   The application is covered under the following license: [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
     `;
@@ -71,7 +71,7 @@ if (license !== 'no license') {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  
+
   return `# ${data.title}
   
   [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
