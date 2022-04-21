@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generatePage = require('./utils/generateMarkdown')
+const generatePage = require('./utils/generateMarkdown.js')
 
 //WHEN I am prompted for information about my application repository
 //THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -81,7 +81,7 @@ function init() {
     .then((answers) => {
         const readmePageContent = generatePage(answers);
         
-        writeToFile('README.md',readmePageContent,err);
+        writeToFile('README.md',readmePageContent);
     })
 }
 // Function call to initialize app
