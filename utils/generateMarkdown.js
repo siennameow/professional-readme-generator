@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'no license') {
     return `
-    [${license}](https://choosealicense.com/licenses/${license})
+    [${renderLicenseBadge(license)}](https://choosealicense.com/licenses/${license})
     `;
   } else {
     return ' ';
@@ -27,8 +27,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 if (license !== 'no license') {
   return `
-  The application is covered under the following license:
-  ${renderLicenseLink(license)}
+  The application is covered under the following license: ${renderLicenseLink(license)}
     `;
   } else {
     return ' ';
