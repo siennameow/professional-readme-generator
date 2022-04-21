@@ -33,12 +33,11 @@ const questions = [{
     message: "Chose the appropriate license for this project: ",
     choices: [
         "Apache",
-        "Academic",
         "GNU",
         "ISC",
         "MIT",
         "Mozilla",
-        "Open"
+        "no license"
     ]
 },
 {
@@ -81,7 +80,7 @@ function init() {
     .then((answers) => {
         const readmePageContent = generatePage(answers);
         
-        writeToFile('README.md',readmePageContent);
+        writeToFile('finalREADME.md',readmePageContent);
     })
 }
 // Function call to initialize app
