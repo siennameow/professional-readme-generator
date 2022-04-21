@@ -3,9 +3,10 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generatePage = require('./utils/generateMarkdown')
-// TODO: Create an array of questions for user input
+
 //WHEN I am prompted for information about my application repository
 //THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// TODO: Create an array of questions for user input
 const questions = [{
     type: "input",
     name: "projectTitle",
@@ -70,12 +71,18 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.whiteFile(fileName, data, (err) => 
+    fs.writeFile(fileName, data, (err) => 
     err ? console.error(err) : console.log('Success! Your README.md file has been generated!')
 )}
 
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+        const readmePageContent = generatePage(answers);
+        
+        writeToFile('README.md',readmePageContent,err);
+    })
+}
 // Function call to initialize app
 init();
