@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   
   ${renderLicenseBadge(data.license)}
 
-# Description 📝 
+## Description 📝 
   ${data.description}
 ## Table of Contents
   - [Description 📝](#description-)
@@ -52,24 +52,24 @@ function generateMarkdown(data) {
   - [Test 🧩](#test-)
   - [Questions ❓](#questions-)
 
-# Installation 🗳 
+## Installation 🗳 
   ${data.installation}
 
-# Usage 💻 
+## Usage 💻 
   ${data.usage}
 
-# License 🚀
+## License 🚀
   ${renderLicenseSection(data.license)}
 
-# Contribution 👩🏻‍💻 
+## Contribution 👩🏻‍💻 
   ${data.contribution}
 
-# Test 🧩
+## Test 🧩
   ${data.test}
 
-# Questions ❓
+## Questions ❓
 
-📩 If you have any question, email me here: ${data.email}<br/>
+📩 If you have any question, email me here at : ${data.email}<br/>
 :octocat: My Github page is [${data.username}](https://github.com/${data.username})
 
  

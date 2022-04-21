@@ -1,10 +1,10 @@
 # meow
   
   
-  ![badge](https://img.shields.io/badge/license-agpl-blue)
+  ![badge](https://img.shields.io/badge/license-mit-blue)
     
 
-# Description 📝 
+## Description 📝 
   meow
 ## Table of Contents
   - [Description 📝](#description-)
@@ -15,30 +15,30 @@
   - [Test 🧩](#test-)
   - [Questions ❓](#questions-)
 
-# Installation 🗳 
+## Installation 🗳 
   meow
 
-# Usage 💻 
+## Usage 💻 
   meow
 
-# License 🚀
+## License 🚀
   
   The application is covered under the following license: 
     [
-  ![badge](https://img.shields.io/badge/license-agpl-blue)
-    ](https://choosealicense.com/licenses/agpl)
+  ![badge](https://img.shields.io/badge/license-mit-blue)
+    ](https://choosealicense.com/licenses/mit)
     
     
 
-# Contribution 👩🏻‍💻 
+## Contribution 👩🏻‍💻 
   meow
 
-# Test 🧩
+## Test 🧩
   meow
 
-# Questions ❓
+## Questions ❓
 
-📩 If you have any question, email me here: mew<br/>
+📩 If you have any question, email me here at : meow@meow.com<br/>
 :octocat: My Github page is [meow](https://github.com/meow)
 
  
