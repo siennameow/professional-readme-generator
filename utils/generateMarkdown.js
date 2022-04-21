@@ -41,37 +41,36 @@ function generateMarkdown(data) {
   
   ${renderLicenseBadge(data.license)}
 
-  # Description
-  📝 
+# Description 📝 
   ${data.description}
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contribution](#contribution)
-  - [Test](#test)
-  - [Questions](#questions)
-  # Installation
-  🗳 
-  ${data.installation}
-  # Usage
-  💻 
-  ${data.usage}
-  # Contribution
-  👩🏻‍💻 
-  ${data.contribution}
-  # Test
-  🧩
-  ${data.test}
-  # License
-  🚀
-  ${renderLicenseSection(data.license)}
-  
-  # Questions❓
-Contact me at ${data.email}
+## Table of Contents
+  - [Description 📝](#description-)
+  - [Installation 🗳](#installation-)
+  - [Usage 💻](#usage-)
+  - [License 🚀](#license-)
+  - [Contribution 👩🏻‍💻](#contribution-)
+  - [Test 🧩](#test-)
+  - [Questions ❓](#questions-)
 
-my github page is [${data.username}](https://github.com/${data.username})
+# Installation 🗳 
+  ${data.installation}
+
+# Usage 💻 
+  ${data.usage}
+
+# License 🚀
+  ${renderLicenseSection(data.license)}
+
+# Contribution 👩🏻‍💻 
+  ${data.contribution}
+
+# Test 🧩
+  ${data.test}
+
+# Questions ❓
+
+📩 If you have any question, email me here: ${data.email}<br/>
+:octocat: My Github page is [${data.username}](https://github.com/${data.username})
 
  
 `;
