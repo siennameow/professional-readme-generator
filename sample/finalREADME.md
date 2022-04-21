@@ -1,8 +1,6 @@
 # meow
   
-  
-  ![badge](https://img.shields.io/badge/license-mit-blue)
-    
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 📝 
   meow
@@ -19,15 +17,11 @@
   meow
 
 ## Usage 💻 
-  meow
+  mew
 
 ## License 🚀
   
-  The application is covered under the following license: 
-    [
-  ![badge](https://img.shields.io/badge/license-mit-blue)
-    ](https://choosealicense.com/licenses/mit)
-    
+  The application is covered under the following license: [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
 
 ## Contribution 👩🏻‍💻 
@@ -38,7 +32,7 @@
 
 ## Questions ❓
 
-📩 If you have any question, email me here at : meow@meow.com<br/>
+📩 If you have any question, email me here at : meow<br/>
 :octocat: My Github page is [meow](https://github.com/meow)
 
  

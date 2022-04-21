@@ -1,10 +1,28 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+//find license badges and links at https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 function renderLicenseBadge(license) {
-  if (license !== 'no license') {
-    return `
-  ![badge](https://img.shields.io/badge/license-${license}-blue)
-    `;
+  if (license !== 'No license') {
+    switch (license) {
+      case 'Apache 2.0':
+        licenseBadge = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
+        break;
+      case 'BSD 3-Clause':
+        licenseBadge = `![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
+        break;
+      case 'GNU GPLv3.0':
+        licenseBadge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+        break;
+      case 'MIT': 
+        licenseBadge = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+        break;
+      case 'Mozilla Public 2.0':
+        licenseBadge = `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
+        break;
+      default:
+        break;
+      }
+      return licenseBadge;
   } else {
     return ' ';
   }
@@ -13,11 +31,28 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'no license') {
-    return `
-    [${renderLicenseBadge(license)}](https://choosealicense.com/licenses/${license})
-    `;
-  } else {
+  if (license !== 'No license') {
+    switch (license) {
+      case 'Apache 2.0':
+        licenseLink = `https://opensource.org/licenses/Apache-2.0`;
+        break;
+      case 'BSD 3-Clause':
+        licenseLink = `https://opensource.org/licenses/BSD-3-Clause`;
+        break;
+      case 'GNU GPLv3.0':
+        licenseLink = `https://www.gnu.org/licenses/gpl-3.0`;
+        break;
+      case 'MIT': 
+      licenseLink = `https://opensource.org/licenses/MIT`;
+        break;
+      case 'Mozilla Public 2.0':
+        licenseLink = `https://opensource.org/licenses/MPL-2.0`;
+        break;
+      default:
+        break;
+      }
+      return licenseLink;
+  }  else {
     return ' ';
   }
 }
@@ -27,7 +62,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 if (license !== 'no license') {
   return `
-  The application is covered under the following license: ${renderLicenseLink(license)}
+  The application is covered under the following license: [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
     `;
   } else {
     return ' ';
@@ -39,7 +74,7 @@ function generateMarkdown(data) {
   
   return `# ${data.title}
   
-  ${renderLicenseBadge(data.license)}
+  [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
 
 ## Description 📝 
   ${data.description}
