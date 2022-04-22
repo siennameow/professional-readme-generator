@@ -21,6 +21,8 @@
 
 This is a A node.js application that uses user input from inquirer to populate a README.md file for user repository. It will help a user crate the README structure without having to worry about applying proper mark down syntax. The app starts with the user being given a welcome message. And then the user is walked through a set of questions that requires their input including Description, Installation, Usage, Contributing, and Tests. The user is also presented with the license options which they can choose from five of the most popular open-source licenses. After choosing a license a the respective license badge will be at the top of the README and a license section with text stating what license was chosen will be created. Lastly, user can input their email and github link which will appears in the questions section. After complete all the prompts, the README will generated with a message saying ' WooHoo! Your README.md file has been generated in the sample folder. '
 
+Save yourself time by using this professional README Generator that will create a README.md file for you! Simply follow the directions below for information on how to use.
+
 Link to the demo video: https://drive.google.com/file/d/1EM14n-s-365IvqGnyk_CqXUtl_tz5zt5/view.
 
 ## Table of Contents
@@ -36,7 +38,8 @@ Link to the demo video: https://drive.google.com/file/d/1EM14n-s-365IvqGnyk_CqXU
 ## Preview 👀 
 
 Below is the video showing the functionality of the application:
-<iframe src="https://drive.google.com/file/d/1EM14n-s-365IvqGnyk_CqXUtl_tz5zt5/preview" width="640" height="480"></iframe>
+
+https://user-images.githubusercontent.com/101283174/164604649-cc481320-6da9-4c39-afb2-715a845e614b.mp4
 
 
 ## Installation 🗳 
