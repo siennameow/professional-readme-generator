@@ -47,7 +47,7 @@ Please enter your email:
 ## License 🚀
 
 ## Contribution 👩🏻‍💻 
-Thank you for your interest in helping out; however, I will not be accepting contributions for this project.
+If you would like to contribute to this project reach out to me. Contact Information can be found below or by clicking on the `Questions` link provided in the Table of Contents.
 
 ## Test 🧩
 To test this app, open up the file in VS Code. Open the terminal and run `node index.js`. Answer the prompts and view the preview of the `generatedREADME.md`file in the `sample` folder.
