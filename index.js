@@ -28,7 +28,7 @@ const questions = [{
 {
     type: "input",
     name: "installation",
-    message: "Describe the installation process: ",
+    message: "Enter your projects installation instructions: ",
 },
 {
     type: "input",
@@ -90,7 +90,7 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => 
-    err ? console.error(err) : console.log('Success! Your README.md file has been generated in the sample folder. ')
+    err ? console.error(err) : console.log('WooHoo! Your README.md file has been generated in the sample folder. ')
 )}
 
 // TODO: Create a function to initialize app
