@@ -8,6 +8,11 @@ const generatePage = require('./utils/generateMarkdown.js')
 //THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 // TODO: Create an array of questions for user input
 const questions = [{
+    type: "confirm",
+    name: "welcome",
+    message:"Thanks for using my README.md generator! You will be presented with options for your README's sections and their respective contents. Hit enter to begin!"
+},
+{
     type: "input",
     name: "title",
     message: "What is the project title? ",
@@ -33,7 +38,7 @@ const questions = [{
 {
     type: "input",
     name: "usage",
-    message: "Describe the usage of the project?"
+    message: "Enter usage of the project: "
 },
 {
     type: "list",

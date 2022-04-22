@@ -5,19 +5,19 @@ function renderLicenseBadge(license) {
   if (license !== 'No license') {
     switch (license) {
       case 'Apache 2.0':
-        licenseBadge = `![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)`;
+        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)]`;
         break;
       case 'BSD 3-Clause':
-        licenseBadge = `![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)`;
+        licenseBadge = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)]`;
         break;
       case 'GNU GPLv3.0':
-        licenseBadge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+        licenseBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
         break;
       case 'MIT': 
-        licenseBadge = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+        licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
         break;
       case 'Mozilla Public 2.0':
-        licenseBadge = `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
+        licenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`;
         break;
       default:
         break;
@@ -34,19 +34,19 @@ function renderLicenseLink(license) {
   if (license !== 'No license') {
     switch (license) {
       case 'Apache 2.0':
-        licenseLink = `https://opensource.org/licenses/Apache-2.0`;
+        licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3-Clause':
-        licenseLink = `https://opensource.org/licenses/BSD-3-Clause`;
+        licenseLink = `(https://opensource.org/licenses/BSD-3-Clause)`;
         break;
       case 'GNU GPLv3.0':
-        licenseLink = `https://www.gnu.org/licenses/gpl-3.0`;
+        licenseLink = `(https://www.gnu.org/licenses/gpl-3.0)`;
         break;
       case 'MIT': 
-      licenseLink = `https://opensource.org/licenses/MIT`;
+      licenseLink = `(https://opensource.org/licenses/MIT)`;
         break;
       case 'Mozilla Public 2.0':
-        licenseLink = `https://opensource.org/licenses/MPL-2.0`;
+        licenseLink = `(https://opensource.org/licenses/MPL-2.0)`;
         break;
       default:
         break;
@@ -62,7 +62,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 if (license !== 'No license') {
   return `
-  The application is covered under the following license: [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
+  The application is covered under the following license: ${renderLicenseBadge(license)}${renderLicenseLink(license)}
     `;
   } else {
     return ' ';
@@ -74,7 +74,7 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
   
-  [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
 ## Description 📝 
   ${data.description}

@@ -6,7 +6,7 @@ This is a A node.js application that uses user input from inquirer to populate a
 
 ## Table of Contents
 - [Description 📝](#description-)
-- [Preview 👁️](#preview-)
+- [Preview 👀](#preview-)
 - [Installation 🗳](#installation-)
 - [Usage 💻](#usage-)
 - [License 🚀](#license-)
@@ -14,7 +14,7 @@ This is a A node.js application that uses user input from inquirer to populate a
 - [Test 🧩](#test-)
 - [Questions ❓](#questions-)
 
-## Preview 👁️ 
+## Preview 👀 
 
 Below is the gif showing the functionality of the application:
 
