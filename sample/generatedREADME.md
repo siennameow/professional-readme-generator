@@ -1,9 +1,9 @@
-# Time travel machine
+# time travel machine
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 📝 
-  time travel machine allows people to travel to the past and future
+  time travel machine allow people to travel to the past and the future
 ## Table of Contents
   - [Description 📝](#description-)
   - [Installation 🗳](#installation-)
@@ -14,10 +14,10 @@
   - [Questions ❓](#questions-)
 
 ## Installation 🗳 
-  Install with a lot of dream and imaginaton
+  install with a lot of dreams and imagination
 
 ## Usage 💻 
-  Dive to a machine tub and close your eyes. Deeply breath
+  dive yourself to the machine and close your eyes
 
 ## License 🚀
   
@@ -25,10 +25,10 @@
     
 
 ## Contribution 👩🏻‍💻 
-  If you want to contribute in this project, feel free to contact me
+  if you want to contribute to this project, please reach out to me
 
 ## Test 🧩
-  Not yet tested. Be careful when you test, it might not take you back to present
+  not yet tested. Be careful when testing the machine--you may not come back!
 
 ## Questions ❓
 
