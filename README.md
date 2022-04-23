@@ -1,9 +1,9 @@
 # Professional README Generator
 
 <p> 
-<img src="https://img.shields.io/github/repo-size/siennameow/README-generator" />
-<img src="https://img.shields.io/github/languages/top/siennameow/README-generator"  />
-<img src="https://img.shields.io/github/issues/siennameow/README-generator" />
+<img src="https://img.shields.io/github/repo-size/siennameow/professional-readme-generator" />
+<img src="https://img.shields.io/github/languages/top/siennameow/professional-readme-generator"  />
+<img src="https://img.shields.io/github/issues/siennameow/professional-readme-generator" />
 <img src="https://img.shields.io/github/last-commit/siennameow/professional-readme-generator" >
 </p>
 
