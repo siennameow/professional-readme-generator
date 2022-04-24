@@ -1,7 +1,7 @@
 # Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/professional-readme-generator/blob/main/LICENSE)
 
 <p> 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/professional-readme-generator/blob/main/LICENSE)
 <img src="https://img.shields.io/github/repo-size/siennameow/professional-readme-generator" />
 <img src="https://img.shields.io/github/languages/top/siennameow/professional-readme-generator"  />
 <img src="https://img.shields.io/github/issues/siennameow/professional-readme-generator" />
