@@ -38,6 +38,9 @@ Link to the demo video: https://drive.google.com/file/d/1EM14n-s-365IvqGnyk_CqXU
 
 ## Preview 👀 
 
+This is a sample README page generated using this application
+![Screen Shot 2022-04-23 at 5 28 35 PM](https://user-images.githubusercontent.com/101283174/164950601-8f1ac7a8-ee0e-433a-ad1e-99ab01d3d48a.png)
+
 Below is the video showing the functionality of the application:
 
 https://user-images.githubusercontent.com/101283174/164604649-cc481320-6da9-4c39-afb2-715a845e614b.mp4
