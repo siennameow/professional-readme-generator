@@ -1,6 +1,7 @@
 # Professional README Generator
 
 <p> 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/professional-readme-generator/blob/main/LICENSE)
 <img src="https://img.shields.io/github/repo-size/siennameow/professional-readme-generator" />
 <img src="https://img.shields.io/github/languages/top/siennameow/professional-readme-generator"  />
 <img src="https://img.shields.io/github/issues/siennameow/professional-readme-generator" />
@@ -69,6 +70,7 @@ Please enter your email:
 ```
 
 ## License 🚀
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/professional-readme-generator/blob/main/LICENSE)
 
 ## Contribution 👩🏻‍💻 
 If you would like to contribute to this project reach out to me. Contact Information can be found below or by clicking on the `Questions` link provided in the Table of Contents.
